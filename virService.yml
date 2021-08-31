@@ -1,8 +1,8 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
-namespace: default
 metadata:
   name: demo-vsvc
+  namespace: default
 spec:
   gateways:
   - demo-gateway

@@ -3,6 +3,7 @@ kind: Rollout
 namespace: default
 metadata:
   name: demo
+  namespace: default
 spec:
   replicas: 1
   strategy:
