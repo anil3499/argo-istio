@@ -1,6 +1,5 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
-namespace: default
 metadata:
   name: demo
   namespace: default
