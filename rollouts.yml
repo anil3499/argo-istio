@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: atulgupta2593/hello-world-demo:v3 #argoproj/rollouts-demo:green
+        image: atulgupta2593/hello-world-demo:v1 #argoproj/rollouts-demo:green
         ports:
         - name: http
           containerPort: 8080
