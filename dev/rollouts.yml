@@ -16,7 +16,7 @@ spec:
             routes:
             - primary # At least one route is required
       steps:
-      - setWeight: 5
+      - setWeight: 50
       - pause: {}
   revisionHistoryLimit: 2
   selector:
@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: atulgupta2593/hello-world-demo:v2 #argoproj/rollouts-demo:green
+        image: atulgupta2593/hello-world-demo:v3 #argoproj/rollouts-demo:green
         ports:
         - name: http
           containerPort: 8080
